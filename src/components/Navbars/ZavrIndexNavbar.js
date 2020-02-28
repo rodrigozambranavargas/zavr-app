@@ -77,7 +77,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="/SectionButtons "
                 target="_blank"
                 title="COMPANY"
               >
@@ -87,7 +87,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="/register-page"
                 target="_blank"
                 title="USE CASES"
               >
@@ -97,7 +97,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="/profile-page"
                 target="_blank"
                 title="CONTACT US"
               >
@@ -106,10 +106,7 @@ function IndexNavbar() {
             </NavItem>
 
             <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
-                target="_blank"
-              >
+              <NavLink href="/register-page" target="_blank">
                 <i className="nc-icon nc-single-02" /> LOG IN
               </NavLink>
             </NavItem>

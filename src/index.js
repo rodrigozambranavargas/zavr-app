@@ -8,6 +8,7 @@ import "assets/scss/paper-kit.scss";
 import "assets/demo/demo.css";
 // pages
 import Index from "views/Index.js";
+import ZavrIndex from "views/ZavrIndex.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
@@ -18,6 +19,11 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/index" render={props => <Index {...props} />} />
+      <Route
+        path="/nucleo-icons"
+        render={props => <NucleoIcons {...props} />}
+      />
+      <Route path="/zavr" render={props => <ZavrIndex {...props} />} />
       <Route
         path="/nucleo-icons"
         render={props => <NucleoIcons {...props} />}
