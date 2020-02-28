@@ -1,10 +1,8 @@
-
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
 import {
-  Button,
   Collapse,
   NavbarBrand,
   Navbar,
@@ -29,7 +27,7 @@ function IndexNavbar() {
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
-        setNavbarColor("");
+        setNavbarColor(""); //to change the color after navbar scrolldown, default withe
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
@@ -52,9 +50,11 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="Zavr"
-          > Zavr
+            title="Engineer Mind"
+          >
+            Engineer Mind
           </NavbarBrand>
+
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
@@ -67,9 +67,13 @@ function IndexNavbar() {
             <span className="navbar-toggler-bar bar3" />
           </button>
         </div>
-        <Collapse className="justify-content-end" navbar isOpen={navbarCollapse}>
-          <Nav navbar>
 
+        <Collapse
+          className="justify-content-end"
+          navbar
+          isOpen={navbarCollapse}
+        >
+          <Nav navbar>
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -80,7 +84,6 @@ function IndexNavbar() {
                 COMPANY
               </NavLink>
             </NavItem>
-
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -88,10 +91,9 @@ function IndexNavbar() {
                 target="_blank"
                 title="USE CASES"
               >
-                USE CASES 
+                USE CASES
               </NavLink>
             </NavItem>
-
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -99,10 +101,18 @@ function IndexNavbar() {
                 target="_blank"
                 title="CONTACT US"
               >
-                CONTACT US 
+                CONTACT US
               </NavLink>
             </NavItem>
-            
+
+            <NavItem>
+              <NavLink
+                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
+                target="_blank"
+              >
+                <i className="nc-icon nc-single-02" /> LOG IN
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Container>
