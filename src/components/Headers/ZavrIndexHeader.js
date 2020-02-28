@@ -3,31 +3,32 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col} from "reactstrap";
 
 // core components
 
 function IndexHeader() {
   return (
     <>
+    
       <div className="page-header section-dark" style={{ backgroundImage: "url(" + require("assets/img/zavr-index.gif") + ")" }} >
-        <div>
-          <Container>
-            <div>              
-              <h1 className="presentation-subtitle text-left">ZaVr</h1> 
-              <h2 className="presentation-subtitle text-left">
-              Consulting firm experienced in applying cloud solutions and
-              Machine Learning to business and industrial problems.
-            </h2>             
-            </div>                                  
-          </Container>  
-            
-          <Container>
+        <div className="bg-primary">
+               
+           <Container>
             <Row>
-            <Col>1 of 1</Col>
+              <Col className="">
+              <h1 className="text-left text-white">Cloud solutions</h1> 
+              <p className=" text-left text-white">
+              Zavr is a consulting firm experienced in applying cloud solutions and Machine Learning to business and industrial problems.            
+              </p>
+              <p className=" text-left text-white">    
+              We specialize in Signal Processing for Finance, Manufacturing, Retail and IT industries. 
+              </p>
+              </Col>
+              <Col className=""> </Col>
             </Row>
           </Container>
-            
+               
         </div>
       </div>
     </>
