@@ -1,2 +1,6 @@
 favicon
 Copyright
+
+links:
+https://www.dotmodus.com
+https://neuralmind.ai
