@@ -8,7 +8,7 @@ import "assets/scss/paper-kit.scss";
 //import "assets/demo/demo.css";
 
 // pages
-import ZavrIndex from "views/ZavrIndex.js";
+import ZavrPTIndex from "views/ZavrPTIndex.js";
 //import RegisterPage from "views/examples/RegisterPage.js";
 
 // others
@@ -16,12 +16,12 @@ import ZavrIndex from "views/ZavrIndex.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/zavr" render={props => <ZavrIndex {...props} />} />
+      <Route path="/indexPT" render={props => <ZavrPTIndex {...props} />} />
       {/*  <Route
         path="/register-page"
         render={props => <RegisterPage {...props} />}
       /> */}
-      <Redirect to="/index" />
+      <Redirect to="/indexPT" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
