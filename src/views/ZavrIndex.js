@@ -5,6 +5,7 @@ import React from "react";
 // core components
 import ZavrIndexNavbar from "components/Navbars/ZavrIndexNavbar";
 import ZavrIndexHeader from "components/Headers/ZavrIndexHeader.js";
+import ZavrCompany from "components/Body/ZavrCompany.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
@@ -28,6 +29,7 @@ function Index() {
       <ZavrIndexHeader />
       <div className="main">
         <SectionNucleoIcons />
+        <ZavrCompany />
         <SectionDark />
         <SectionLogin />
         <SectionExamples />

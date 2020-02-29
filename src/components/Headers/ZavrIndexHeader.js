@@ -22,13 +22,14 @@ function IndexHeader() {
               <Col className="text-center">
                 <div className="">
                   <h1 className="presentation-title text-left">
-                    Cloud & Machine Learning Consulting
+                    Cloud Machine Learning Consulting
                   </h1>
                 </div>
                 <h2 className="presentation-subtitle text-left">
                   Engineer Mind is a Cloud Consulting firm experienced in
                   applying AI and Machine Learning to business problems. We
-                  specialize in Natural Language Processing and Signal
+                  specialize in Natural Language Processing and Signal <br></br>{" "}
+                  <br></br>
                   Processing for Finance, Manufacturing, Retail, Healthcare and
                   IT industries
                 </h2>
