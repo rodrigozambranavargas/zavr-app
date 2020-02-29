@@ -31,32 +31,21 @@ function Company() {
               </div>
             </Col>
             <Col lg="6" md="12">
-              <h2 className="title">Nucleo Icons</h2>
+              <h2 className="title">Engineer Mind</h2>
               <br />
-              <p className="description">
-                Paper Kit comes with 100 custom icons made by our friends from
-                NucleoApp. The official package contains over 2.100 thin icons
-                which are looking great in combination with Paper Kit Make sure
-                you check all of them and use those that you like the most.
+              <p className="description text-justify">
+                Em nossa essência, somos uma empresa de análise de dados e
+                Machine Learning (ML). Ajudamos nossos clientes a melhorar o uso
+                de seus dados para levá-los a decisões melhores e ter uma
+                administração mais eficiente com soluções de software hospedadas
+                na Nube sob medida. <br />
+                <br />
+                Nossa equipe ajudara você a decidir a melhor solução para sua
+                empresa, aplicando a tecnologia de AWS para criar e hospedar
+                nossas soluções em todo o mundo, cuidaremos de todo o seu
+                projeto, desde a preparação dos dados até a implantação
+                escalável da produção.
               </p>
-              <br />
-              <Button
-                className="btn-round"
-                color="danger"
-                href="/nucleo-icons"
-                target="_blank"
-              >
-                View Demo Icons
-              </Button>
-              <Button
-                className="btn-round ml-1"
-                color="danger"
-                href="https://nucleoapp.com/?ref=1712"
-                outline
-                target="_blank"
-              >
-                View All Icons
-              </Button>
             </Col>
           </Row>
         </Container>

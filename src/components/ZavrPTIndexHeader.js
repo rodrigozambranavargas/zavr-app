@@ -19,22 +19,18 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <Row>
-              <Col className="text-center">
+              <Col className="col-md-6 ">
                 <div className="">
                   <h1 className="presentation-title text-left">
-                    Cloud Machine Learning Consulting
+                    Soluções de dados baseadas na Nube
                   </h1>
                 </div>
-                <h2 className="presentation-subtitle text-left">
-                  Engineer Mind is a Cloud Consulting firm experienced in
-                  applying AI and Machine Learning to business problems. We
-                  specialize in Natural Language Processing and Signal <br></br>{" "}
-                  <br></br>
-                  Processing for Finance, Manufacturing, Retail, Healthcare and
-                  IT industries
-                </h2>
+                <p className="text-left mt-4 text-justify">
+                  Engineer Mind é uma empresa de consultoria com experiência na
+                  aplicação de soluções baseadas na Nube a problemas industriais
+                  e de negócios <br></br>
+                </p>
               </Col>
-              <Col></Col>
             </Row>
           </Container>
         </div>

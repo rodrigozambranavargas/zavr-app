@@ -11,7 +11,7 @@ import ZavrPTDemoFooter from "components/ZavrPTDemoFooter.js";
 
 import ZavrPTCompany from "components/ZavrPTCompany.js";
 import ZavrPTSectionDark from "components/ZavrPTSectionDark.js";
-import ZavrPTUseCases from "components/ZavrPTUseCases.js";
+import ZavrPTServices from "components/ZavrPTServices.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -28,7 +28,7 @@ function Index() {
       <div className="main">
         <ZavrPTCompany />
         <ZavrPTSectionDark />
-        <ZavrPTUseCases />
+        <ZavrPTServices />
         <ZavrPTDemoFooter />
       </div>
     </>

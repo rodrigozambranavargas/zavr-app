@@ -82,7 +82,7 @@ function IndexNavbar() {
                 target="_blank"
                 title="COMPANY"
               >
-                COMPANY
+                A ENGINEER MIND
               </NavLink>
             </NavItem>
             <NavItem>
@@ -92,7 +92,7 @@ function IndexNavbar() {
                 target="_blank"
                 title="USE CASES"
               >
-                USE CASES
+                SOLUÇÕES
               </NavLink>
             </NavItem>
             <NavItem>
@@ -102,7 +102,7 @@ function IndexNavbar() {
                 target="_blank"
                 title="CONTACT US"
               >
-                CONTACT US
+                CONTATO
               </NavLink>
             </NavItem>
 

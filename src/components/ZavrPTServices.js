@@ -27,7 +27,7 @@ function SectionProgress() {
   };
   return (
     <>
-      <div className="section section-dark ">
+      <div className=" pb-5 section-dark ">
         <Container>
           <Row className="justify-content-center">
             <Col md="8">
@@ -41,7 +41,8 @@ function SectionProgress() {
                           toggle("1");
                         }}
                       >
-                        Home
+                        Desenvolvimento <br />
+                        Web|App
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -51,7 +52,8 @@ function SectionProgress() {
                           toggle("2");
                         }}
                       >
-                        Profile
+                        Análise <br />
+                        de dados
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -61,7 +63,8 @@ function SectionProgress() {
                           toggle("3");
                         }}
                       >
-                        Messages
+                        Machine <br />
+                        Learning
                       </NavLink>
                     </NavItem>
                   </Nav>
@@ -70,15 +73,24 @@ function SectionProgress() {
               <TabContent activeTab={activeTab} className="text-center">
                 <TabPane tabId="1">
                   <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient.
+                    Inicie um aplicativo móvel ou na web, moderno e totalmente
+                    personalizado para interagir com seus clientes ou otimizar
+                    suas operações comerciais diárias.
                   </p>
                 </TabPane>
                 <TabPane tabId="2">
-                  <p>Here is your profile.</p>
+                  <p>
+                    Obtenha informações, mitigue riscos e reduza custos com uma
+                    solução de banco de dados segura e confiável hospedada na
+                    Nube.
+                  </p>
                 </TabPane>
                 <TabPane tabId="3">
-                  <p>Here are your messages.</p>
+                  <p>
+                    Criação, treinamento e implementação de algoritmos de
+                    Machine Learning para identificar oportunidades lucrativas,
+                    riscos ou imprevistos em seus negócios.
+                  </p>
                 </TabPane>
               </TabContent>
             </Col>
