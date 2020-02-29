@@ -105,9 +105,10 @@
     }
 
     &:after {
-      background-color: #fffcf5;
+      background-color: #1d1d1d; //#fff5f5;
     }
   }
+
   #navbarSupportedContent {
     .nav-item {
       position: relative;
@@ -134,6 +135,7 @@
   .caret {
     @include center-item();
   }
+
   &.navbar-transparent {
     background: transparent !important;
     padding-top: 25px;
@@ -155,6 +157,7 @@
       }
     }
   }
+
   .logo-container {
     margin-top: 5px;
     .logo {
@@ -196,6 +199,7 @@
   }
 }
 
+/////////////////////////////////////////////
 .navbar-transparent,
 [class*="bg"] {
   .navbar-brand {
@@ -257,7 +261,7 @@
     @include opacity(1);
   }
 }
-
+///////////////////////////////////////////////
 .navbar-absolute {
   position: absolute;
   width: 100%;

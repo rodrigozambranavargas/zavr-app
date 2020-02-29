@@ -5,15 +5,13 @@ import React from "react";
 // core components
 import ZavrIndexNavbar from "components/Navbars/ZavrIndexNavbar";
 import ZavrIndexHeader from "components/Headers/ZavrIndexHeader.js";
-import ZavrCompany from "components/Body/ZavrCompany.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import ZavrDemoFooter from "components/Footers/ZavrDemoFooter.js";
 
 // index sections
 
-import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
-import SectionDark from "views/index-sections/SectionDark.js";
-import SectionLogin from "views/index-sections/SectionLogin.js";
-import SectionExamples from "views/index-sections/SectionExamples.js";
+import ZavrCompany from "components/Body/ZavrCompany.js";
+import ZavrSectionDark from "components/Body/ZavrSectionDark.js";
+import ZavrUseCases from "components/Body/ZavrUseCases.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -28,13 +26,10 @@ function Index() {
       <ZavrIndexNavbar />
       <ZavrIndexHeader />
       <div className="main">
-        <SectionNucleoIcons />
         <ZavrCompany />
-        <SectionDark />
-        <SectionLogin />
-        <SectionExamples />
-
-        <DemoFooter />
+        <ZavrSectionDark />
+        <ZavrUseCases />
+        <ZavrDemoFooter />
       </div>
     </>
   );
