@@ -3,15 +3,15 @@ import React from "react";
 // reactstrap components
 
 // core components
-import ZavrIndexNavbar from "components/Navbars/ZavrIndexNavbar";
-import ZavrIndexHeader from "components/Headers/ZavrIndexHeader.js";
-import ZavrDemoFooter from "components/Footers/ZavrDemoFooter.js";
+import ZavrIndexNavbar from "components/ZavrIndexNavbar";
+import ZavrIndexHeader from "components/ZavrIndexHeader.js";
+import ZavrDemoFooter from "components/ZavrDemoFooter.js";
 
 // index sections
 
-import ZavrCompany from "components/Body/ZavrCompany.js";
-import ZavrSectionDark from "components/Body/ZavrSectionDark.js";
-import ZavrUseCases from "components/Body/ZavrUseCases.js";
+import ZavrCompany from "components/ZavrCompany.js";
+import ZavrSectionDark from "components/ZavrSectionDark.js";
+import ZavrUseCases from "components/ZavrUseCases.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
