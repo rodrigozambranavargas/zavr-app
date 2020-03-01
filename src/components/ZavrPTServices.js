@@ -2,6 +2,7 @@ import React from "react";
 
 // reactstrap components
 import {
+  Button,
   NavItem,
   NavLink,
   Nav,
@@ -27,72 +28,138 @@ function SectionProgress() {
   };
   return (
     <>
-      <div className=" pb-5 section-dark ">
+      <div className=" section-dark section-nucleo-icons">
         <Container>
-          <Row className="justify-content-center">
-            <Col md="8">
-              <div className="nav-tabs-navigation">
-                <div className="nav-tabs-wrapper">
-                  <Nav id="tabs" role="tablist" tabs>
-                    <NavItem>
-                      <NavLink
-                        className={activeTab === "1" ? "active" : ""}
-                        onClick={() => {
-                          toggle("1");
-                        }}
-                      >
-                        Desenvolvimento <br />
-                        Web|App
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
-                        className={activeTab === "2" ? "active" : ""}
-                        onClick={() => {
-                          toggle("2");
-                        }}
-                      >
-                        Análise <br />
-                        de dados
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
-                        className={activeTab === "3" ? "active" : ""}
-                        onClick={() => {
-                          toggle("3");
-                        }}
-                      >
-                        Machine <br />
-                        Learning
-                      </NavLink>
-                    </NavItem>
-                  </Nav>
-                </div>
+          <Row>
+            <Col lg="6" md="12">
+              <div className="icons-container">
+                <i className="nc-icon nc-time-alarm" />
+                <i className="nc-icon nc-atom" />
+                <i className="nc-icon nc-camera-compact" />
+                <i className="nc-icon nc-watch-time" />
+                <i className="nc-icon nc-key-25" />
+                <i className="nc-icon nc-diamond" />
+                <i className="nc-icon nc-user-run" />
+                <i className="nc-icon nc-layout-11" />
+                <i className="nc-icon nc-badge" />
+                <i className="nc-icon nc-bulb-63" />
+                <i className="nc-icon nc-favourite-28" />
+                <i className="nc-icon nc-planet" />
+                <i className="nc-icon nc-tie-bow" />
+                <i className="nc-icon nc-zoom-split" />
+                <i className="nc-icon nc-cloud-download-93" />
               </div>
-              <TabContent activeTab={activeTab} className="text-center">
-                <TabPane tabId="1">
-                  <p>
-                    Inicie um aplicativo móvel ou na web, moderno e totalmente
-                    personalizado para interagir com seus clientes ou otimizar
-                    suas operações comerciais diárias.
-                  </p>
-                </TabPane>
-                <TabPane tabId="2">
-                  <p>
-                    Obtenha informações, mitigue riscos e reduza custos com uma
-                    solução de banco de dados segura e confiável hospedada na
-                    Nube.
-                  </p>
-                </TabPane>
-                <TabPane tabId="3">
-                  <p>
-                    Criação, treinamento e implementação de algoritmos de
-                    Machine Learning para identificar oportunidades lucrativas,
-                    riscos ou imprevistos em seus negócios.
-                  </p>
-                </TabPane>
-              </TabContent>
+            </Col>
+            <Col lg="6" md="12">
+              <h2 className="title">
+                Desenvolvimento <br />
+                Web |App
+              </h2>
+              <br />
+              <p className="presentation-subtitle description text-justify ">
+                Inicie um aplicativo móvel ou na web, moderno e totalmente
+                personalizado para interagir com seus clientes ou otimizar suas
+                operações comerciais diárias.
+              </p>
+              <br />
+              <Button
+                className="btn-round ml-1"
+                color="danger"
+                href="https://nucleoapp.com/?ref=1712"
+                outline
+                target="_blank"
+              >
+                SAIBA MAIS
+              </Button>
+            </Col>
+          </Row>
+        </Container>
+      </div>{" "}
+      <div className=" section-dark section-nucleo-icons">
+        <Container>
+          <Row>
+            <Col lg="6" md="12">
+              <h2 className="title">Análise de dados</h2>
+              <br />
+              <p className="presentation-subtitle description text-justify ">
+                Obtenha informações, mitigue riscos e reduza custos com uma
+                solução de banco de dados segura e confiável hospedada na Nube.
+              </p>
+              <br />
+              <Button
+                className="btn-round ml-1"
+                color="danger"
+                href="https://nucleoapp.com/?ref=1712"
+                outline
+                target="_blank"
+              >
+                SAIBA MAIS
+              </Button>
+            </Col>
+            <Col lg="6" md="12">
+              <div className="icons-container">
+                <i className="nc-icon nc-time-alarm" />
+                <i className="nc-icon nc-atom" />
+                <i className="nc-icon nc-camera-compact" />
+                <i className="nc-icon nc-watch-time" />
+                <i className="nc-icon nc-key-25" />
+                <i className="nc-icon nc-diamond" />
+                <i className="nc-icon nc-user-run" />
+                <i className="nc-icon nc-layout-11" />
+                <i className="nc-icon nc-badge" />
+                <i className="nc-icon nc-bulb-63" />
+                <i className="nc-icon nc-favourite-28" />
+                <i className="nc-icon nc-planet" />
+                <i className="nc-icon nc-tie-bow" />
+                <i className="nc-icon nc-zoom-split" />
+                <i className="nc-icon nc-cloud-download-93" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>{" "}
+      <div className=" section-dark section-nucleo-icons">
+        <Container>
+          <Row>
+            <Col lg="6" md="12">
+              <div className="icons-container">
+                <i className="nc-icon nc-time-alarm" />
+                <i className="nc-icon nc-atom" />
+                <i className="nc-icon nc-camera-compact" />
+                <i className="nc-icon nc-watch-time" />
+                <i className="nc-icon nc-key-25" />
+                <i className="nc-icon nc-diamond" />
+                <i className="nc-icon nc-user-run" />
+                <i className="nc-icon nc-layout-11" />
+                <i className="nc-icon nc-badge" />
+                <i className="nc-icon nc-bulb-63" />
+                <i className="nc-icon nc-favourite-28" />
+                <i className="nc-icon nc-planet" />
+                <i className="nc-icon nc-tie-bow" />
+                <i className="nc-icon nc-zoom-split" />
+                <i className="nc-icon nc-cloud-download-93" />
+              </div>
+            </Col>
+            <Col lg="6" md="12">
+              <h2 className="title">Machine Learning</h2>
+              <br />
+              <p className="presentation-subtitle description text-justify">
+                Criação, treinamento e implementação de algoritmos de Machine
+                Learning para identificar oportunidades lucrativas, riscos ou
+                imprevistos em seus negócios. <br /> <br />
+                Engineer Mind. O caminho ideal para aproveitar ao máximo as
+                tecnologias de machine learning
+              </p>
+              <br />
+              <Button
+                className="btn-round ml-1"
+                color="danger"
+                href="https://nucleoapp.com/?ref=1712"
+                outline
+                target="_blank"
+              >
+                SAIBA MAIS
+              </Button>
             </Col>
           </Row>
         </Container>

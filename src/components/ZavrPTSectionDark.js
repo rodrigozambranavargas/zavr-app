@@ -15,7 +15,7 @@ function SectionDark() {
               <h2 className="title">
                 O parceiro de transformação digital que você procura
               </h2>
-              <p className="description">
+              <p className="presentation-subtitle description">
                 Fornecendo o melhor em soluções escaláveis e específicas do
                 setor baseadas na Nube.
               </p>
