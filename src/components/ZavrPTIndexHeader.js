@@ -22,13 +22,13 @@ function IndexHeader() {
               <Col className="col-md-6 ">
                 <div className="">
                   <h1 className="presentation-title text-left">
-                    Soluções de dados baseadas na Nube
+                    Soluções de dados baseadas na Nuvem
                   </h1>
                 </div>
                 <p className="text-left mt-4 text-justify">
                   Engineer Mind é uma empresa de consultoria com experiência na
-                  aplicação de soluções baseadas na Nube a problemas industriais
-                  e de negócios <br></br>
+                  aplicação de soluções baseadas na Nuvem a problemas
+                  industriais e de negócios <br></br>
                 </p>
               </Col>
             </Row>

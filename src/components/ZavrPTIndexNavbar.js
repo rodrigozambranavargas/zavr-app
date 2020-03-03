@@ -27,7 +27,7 @@ function IndexNavbar() {
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
-        setNavbarColor("navbar-transparent"); //to change the color after navbar scrolldown, default withe
+        setNavbarColor(""); //to change the color after navbar scrolldown, default withe
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300

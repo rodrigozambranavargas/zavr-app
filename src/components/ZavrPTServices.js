@@ -3,15 +3,15 @@ import React from "react";
 // reactstrap components
 import {
   Button,
-  NavItem,
-  NavLink,
-  Nav,
-  Pagination,
-  PaginationItem,
-  PaginationLink,
-  Progress,
-  TabContent,
-  TabPane,
+  //NavItem,
+  //NavLink,
+  //Nav,
+  //Pagination,
+  //PaginationItem,
+  //PaginationLink,
+  //Progress,
+  //TabContent,
+  //TabPane,
   Container,
   Row,
   Col
@@ -20,12 +20,12 @@ import {
 // core components
 
 function SectionProgress() {
-  const [activeTab, setActiveTab] = React.useState("1");
+  /* const [activeTab, setActiveTab] = React.useState("1");
   const toggle = tab => {
     if (activeTab !== tab) {
       setActiveTab(tab);
     }
-  };
+  }; */
   return (
     <>
       <div className=" section-dark section-nucleo-icons">
