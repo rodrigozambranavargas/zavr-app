@@ -9,22 +9,35 @@ function SectionTypography() {
   return (
     <>
       <div className="section-dark">
-        <Container className="tim-container">
-          <div id="typography ">
+        <Container>
+          <div>
             <Row>
               <Col>
-                <div className="typography-line section-dark">
+                <div className="section-dark">
                   <blockquote className="blockquote ">
-                    <p className="mb-0">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                    <h3 className="title">Pronto quando estiveres</h3>
+                    <p className="mb-0 ">
+                      Informe-nos o que procura ou, se ainda não tiver certeza,
+                      entraremos em contato com você com prazer e ajudaremos a
+                      determinar onde uma de nossas soluções melhor beneficiará
+                      seus negócios.
                     </p>
                     <br />
-                    <footer className="blockquote-footer">
-                      Someone famous in{" "}
-                      <cite title="source Title">Source Title</cite>
-                    </footer>
+                    <div className="">
+                      <h5 className="my-0">Contato</h5>
+                      <br />
+                      <a href="" target="_blank" class="link" id="italic">
+                        <p className="my-0">experience@engineermind.io</p>
+                      </a>
+                      <a href="" target="_blank" class="link" id="italic">
+                        <p className="my-0">+55 (11) 958232478)</p>
+                      </a>
+                      <br />
+                      <p>R. Aimbêre Ɩ Santo André</p>
+                      <p>São Paulo Ɩ Brazil</p>
+                      <p>2020</p>
+                      <br />
+                    </div>
                   </blockquote>
                 </div>
               </Col>

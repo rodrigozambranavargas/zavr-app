@@ -25,7 +25,7 @@ function IndexHeader() {
                     Soluções de dados baseadas na Nuvem
                   </h1>
                 </div>
-                <p className="text-left mt-4 text-justify">
+                <p className="presentation-subtitle text-left mt-4 text-justify">
                   Engineer Mind é uma empresa de consultoria com experiência na
                   aplicação de soluções baseadas na Nuvem a problemas
                   industriais e de negócios <br></br>

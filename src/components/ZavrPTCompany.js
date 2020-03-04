@@ -33,7 +33,7 @@ function Company() {
             <Col lg="6" md="12">
               <h2 className="title">Engineer Mind</h2>
               <br />
-              <p className="description text-justify">
+              <p className="description presentation-subtitle text-justify">
                 Em nossa essência, somos uma empresa de análise de dados e
                 Machine Learning (ML). Ajudamos nossos clientes a melhorar o uso
                 de seus dados para levá-los a decisões melhores e ter uma

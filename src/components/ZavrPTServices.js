@@ -64,7 +64,7 @@ function SectionProgress() {
               <br />
               <Button
                 className="btn-round ml-1"
-                color="danger"
+                color="info"
                 href="https://nucleoapp.com/?ref=1712"
                 outline
                 target="_blank"
@@ -88,7 +88,7 @@ function SectionProgress() {
               <br />
               <Button
                 className="btn-round ml-1"
-                color="danger"
+                color="info"
                 href="https://nucleoapp.com/?ref=1712"
                 outline
                 target="_blank"
@@ -153,7 +153,7 @@ function SectionProgress() {
               <br />
               <Button
                 className="btn-round ml-1"
-                color="danger"
+                color="info"
                 href="https://nucleoapp.com/?ref=1712"
                 outline
                 target="_blank"
