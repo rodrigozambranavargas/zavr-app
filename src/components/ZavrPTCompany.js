@@ -11,7 +11,7 @@ function Company() {
       <div className=" section-dark section-nucleo-icons">
         <Container>
           <Row>
-            <Col lg="6" md="12">
+            <Col className="bg-primary" lg="6" md="12">
               <div className="icons-container">
                 <i className="nc-icon nc-time-alarm" />
                 <i className="nc-icon nc-atom" />

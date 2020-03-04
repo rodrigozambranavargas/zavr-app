@@ -31,8 +31,9 @@ function SectionProgress() {
       <div className=" section-dark section-nucleo-icons">
         <Container>
           <Row>
-            <Col lg="6" md="12">
-              <div className="icons-container">
+            <Col className="" lg="6" md="12">
+              {/*only on md screen "d-md-block d-none"*/}
+              <div className="icons-container d-md-block d-none">
                 <i className="nc-icon nc-time-alarm" />
                 <i className="nc-icon nc-atom" />
                 <i className="nc-icon nc-camera-compact" />
@@ -53,7 +54,7 @@ function SectionProgress() {
             <Col lg="6" md="12">
               <h2 className="title">
                 Desenvolvimento <br />
-                Web |App
+                Web | App
               </h2>
               <br />
               <p className="presentation-subtitle description text-justify ">
@@ -97,7 +98,8 @@ function SectionProgress() {
               </Button>
             </Col>
             <Col lg="6" md="12">
-              <div className="icons-container">
+              {/*only on md screen "d-md-block d-none"*/}
+              <div className="icons-container d-md-block d-none">
                 <i className="nc-icon nc-time-alarm" />
                 <i className="nc-icon nc-atom" />
                 <i className="nc-icon nc-camera-compact" />
@@ -122,7 +124,8 @@ function SectionProgress() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <div className="icons-container">
+              {/*only on md screen "d-md-block d-none"*/}
+              <div className="icons-container d-md-block d-none">
                 <i className="nc-icon nc-time-alarm" />
                 <i className="nc-icon nc-atom" />
                 <i className="nc-icon nc-camera-compact" />

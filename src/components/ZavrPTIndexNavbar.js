@@ -78,7 +78,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/SectionButtons "
+                href=""
                 target="_blank"
                 title="COMPANY"
               >
