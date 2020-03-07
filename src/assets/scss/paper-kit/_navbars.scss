@@ -12,7 +12,7 @@
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
-  background: $white-color;
+  background: #0a0a0a; //$white-color;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 
   .navbar-brand {
@@ -20,7 +20,7 @@
     margin: $navbar-margin-brand;
     padding: $navbar-padding-brand;
     font-size: $font-size-base;
-    color: $default-color;
+    color: #e3e3e3; //$default-color;
     text-transform: uppercase;
   }
   .navbar-toggler:focus {
@@ -33,7 +33,7 @@
   &:not([class*="bg"]) {
     .navbar-toggler {
       .navbar-toggler-bar {
-        background: $default-color !important;
+        background: #66615b; //$default-color !important;
       }
     }
   }
@@ -47,7 +47,7 @@
       font-size: $font-size-small;
       text-transform: uppercase;
       font-weight: 600;
-      color: $default-color;
+      color: #ffffff; // $default-color;
 
       p {
         margin: 0px 0px;
@@ -153,7 +153,7 @@
 
     .navbar-toggler {
       .navbar-toggler-bar {
-        background: $white-color !important;
+        background: #ffffff; //$white-color !important;
       }
     }
   }
