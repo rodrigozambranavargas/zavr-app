@@ -12,6 +12,10 @@ import {
   Container
 } from "reactstrap";
 
+// React Scroll
+//import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
@@ -47,13 +51,22 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand
-            data-placement="bottom"
-            href="/index"
-            target="_blank"
-            title="Engineer Mind"
-          >
-            Engineer Mind
+          <NavbarBrand className=" mt-0 pt-0 mb-0 pb-0">
+            <Link
+              className="navbar-brand"
+              activeClass="active"
+              to="ZavrPTHeader"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={700}
+              data-placement="bottom"
+              href=""
+              target="_blank"
+              title="ENGINEER MIND"
+            >
+              ENGINEER MIND
+            </Link>
           </NavbarBrand>
 
           <button
@@ -76,34 +89,57 @@ function IndexNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="ZavrPTCompany"
+                spy={true}
+                smooth={true}
+                offset={-20}
+                duration={700}
                 data-placement="bottom"
                 href=""
                 target="_blank"
-                title="COMPANY"
+                title="A ENGINEER MIND"
               >
                 A ENGINEER MIND
-              </NavLink>
+              </Link>
             </NavItem>
+
             <NavItem>
-              <NavLink
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="ZavrPTServices"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={700}
                 data-placement="bottom"
-                href="/register-page"
+                href=""
                 target="_blank"
-                title="USE CASES"
+                title="SOLUÇÕES"
               >
                 SOLUÇÕES
-              </NavLink>
+              </Link>
             </NavItem>
+
             <NavItem>
-              <NavLink
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="ZavrPTContactUs"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={700}
                 data-placement="bottom"
-                href="/profile-page"
+                href=""
                 target="_blank"
-                title="CONTACT US"
+                title="CONTATO"
               >
                 CONTATO
-              </NavLink>
+              </Link>
             </NavItem>
 
             <NavItem>

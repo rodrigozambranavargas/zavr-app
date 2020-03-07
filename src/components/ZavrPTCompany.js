@@ -8,7 +8,7 @@ import { Container, Row, Col } from "reactstrap";
 function Company() {
   return (
     <>
-      <div className=" section-dark section-nucleo-icons">
+      <div className=" section-dark section-nucleo-icons" id="ZavrPTCompany">
         <Container>
           <Row>
             <Col className="bg-primary" lg="6" md="12">

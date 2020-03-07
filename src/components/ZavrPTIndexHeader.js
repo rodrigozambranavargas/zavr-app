@@ -9,7 +9,8 @@ function IndexHeader() {
   return (
     <>
       <div
-        className="page-header section-dark"
+        className="page-header section-dark0"
+        id="ZavrPTHeader"
         style={{
           backgroundImage: "url(" + require("assets/img/intro.gif") + ")"
         }}

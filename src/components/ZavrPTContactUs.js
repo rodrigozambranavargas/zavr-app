@@ -8,7 +8,7 @@ import { Container, Row, Col } from "reactstrap";
 function SectionTypography() {
   return (
     <>
-      <div className="section-dark">
+      <div className="section-dark" id="ZavrPTContactUs">
         <Container>
           <div>
             <Row>
@@ -26,10 +26,20 @@ function SectionTypography() {
                     <div className="">
                       <h5 className="my-0">Contato</h5>
                       <br />
-                      <a href="" target="_blank" class="link" id="italic">
+                      <a
+                        href="https://github.com/rodrigozambranavargas"
+                        target=""
+                        class="link"
+                        id="italic"
+                      >
                         <p className="my-0">experience@engineermind.io</p>
                       </a>
-                      <a href="" target="_blank" class="link" id="italic">
+                      <a
+                        href="https://github.com/rodrigozambranavargas"
+                        target=""
+                        class="link"
+                        id="italic"
+                      >
                         <p className="my-0">+55 (11) 958232478)</p>
                       </a>
                       <br />
