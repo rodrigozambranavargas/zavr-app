@@ -71,7 +71,7 @@ function IndexNavbar() {
 
           <button
             aria-expanded={navbarCollapse}
-            className={classnames("navbar-toggler navbar-toggler", {
+            className={classnames("navbar-toggler ", {
               toggled: navbarCollapse
             })}
             onClick={toggleNavbarCollapse}
@@ -97,10 +97,12 @@ function IndexNavbar() {
                 smooth={true}
                 offset={-20}
                 duration={700}
+                data-target=".navbar-collapse.show"
                 data-placement="bottom"
                 href=""
                 target="_blank"
                 title="A ENGINEER MIND"
+                onClick={toggleNavbarCollapse}
               >
                 A ENGINEER MIND
               </Link>
@@ -119,6 +121,7 @@ function IndexNavbar() {
                 href=""
                 target="_blank"
                 title="SOLUÇÕES"
+                onClick={toggleNavbarCollapse}
               >
                 SOLUÇÕES
               </Link>
@@ -137,13 +140,18 @@ function IndexNavbar() {
                 href=""
                 target="_blank"
                 title="CONTATO"
+                onClick={toggleNavbarCollapse}
               >
                 CONTATO
               </Link>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/register-page" target="_blank">
+              <NavLink
+                href="/register-page"
+                target="_blank"
+                onClick={toggleNavbarCollapse}
+              >
                 <i className="nc-icon nc-single-02" /> LOG IN
               </NavLink>
             </NavItem>
