@@ -49,11 +49,11 @@ function IndexNavbar() {
 
   return (
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
-      <Container>
+      <Container className="">
         <div className="navbar-translate">
-          <NavbarBrand className=" mt-0 pt-0 mb-0 pb-0">
+          <NavbarBrand className=" pl-0 mt-0 pt-0 mb-0 pb-0 ">
             <Link
-              className="navbar-brand"
+              className="navbar-brand , "
               activeClass="active"
               to="ZavrPTHeader"
               spy={true}
