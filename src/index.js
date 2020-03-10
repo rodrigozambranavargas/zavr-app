@@ -15,7 +15,7 @@ import Login from "views/Login.js";
 import Amplify from "aws-amplify"; // AWS Amplify es una plataforma de desarrollo para la creación de aplicaciones móviles y web seguras y escalables.
 import config from "AWS/config";
 
-// Configuration for AWS Cognito
+// Configuration AWS Amplify
 Amplify.configure({
   Auth: {
     mandatorySignIn: true,

@@ -53,7 +53,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand className=" pl-0 mt-0 pt-0 mb-0 pb-0 ">
             <Link
-              className="navbar-brand pl-0"
+              className="navbar-brand pl-2 pl-md-0"
               activeClass="active"
               to="ZavrPTHeader"
               spy={true}
@@ -148,7 +148,7 @@ function IndexNavbar() {
 
             <NavItem>
               <NavLink
-                href="/register-page"
+                href="/Login"
                 target="_blank"
                 onClick={toggleNavbarCollapse}
               >
