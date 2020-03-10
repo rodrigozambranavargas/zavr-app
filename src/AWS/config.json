@@ -1,0 +1,10 @@
+{
+  "api": {
+    "invokeUrl": "https://wzrdcvordb.execute-api.us-east-1.amazonaws.com/prod"
+  },
+  "cognito": {
+    "REGION": "us-east-1",
+    "USER_POOL_ID": "us-east-1_iaS72khoZ",
+    "APP_CLIENT_ID": "n7d3iuu7mlqm9fj4h781ru0v0"
+  }
+}
