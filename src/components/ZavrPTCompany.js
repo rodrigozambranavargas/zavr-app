@@ -11,7 +11,15 @@ function Company() {
       <div className=" section-dark section-nucleo-icons" id="ZavrPTCompany">
         <Container>
           <Row>
-            <Col className="" lg="6" md="12">
+            <Col
+              className=""
+              lg="6"
+              md="12"
+              style={{
+                backgroundImage:
+                  "url(" + require("assets/img/daniel-olahs.jpg") + ")"
+              }}
+            >
               <div className="icons-container">
                 <i className="nc-icon nc-time-alarm" />
                 <i className="nc-icon nc-atom" />
@@ -31,9 +39,11 @@ function Company() {
               </div>
             </Col>
             <Col lg="6" md="12">
-              <h2 className="title">Engineer Mind</h2>
+              <h2 className="presentation-subtitle text-center text-md-left mb-3">
+                Engineer Mind
+              </h2>
               <br />
-              <p className="description presentation-subtitle text-justify">
+              <p className="description  text-justify">
                 Em nossa essência, somos uma empresa de análise de dados e
                 Machine Learning (ML). Ajudamos nossos clientes a melhorar o uso
                 de seus dados para levá-los a decisões melhores e ter uma

@@ -254,7 +254,7 @@ $font-background-light-grey: #9c9b99 !default;
 $font-hover-background-light-grey: #5e5e5c !default;
 
 // variables used in headers
-$header-background: #b2afab !default;
+$header-background: rgb(52, 182, 171) !default; //#b2afab !default;
 
 $filter-primary: darken($primary-color, 10%);
 $filter-info: darken($info-color, 10%);

@@ -28,10 +28,20 @@ function SectionProgress() {
   }; */
   return (
     <>
-      <div className=" section-dark section-nucleo-icons" id="ZavrPTServices">
+      <div
+        className=" section-dark section-nucleo-icons pt-5 pb-5"
+        id="ZavrPTServices"
+      >
         <Container>
           <Row>
-            <Col className="" lg="6" md="12">
+            <Col
+              className=""
+              lg="6"
+              md="12"
+              style={{
+                backgroundImage: "url(" + require("assets/img/01img.jpg") + ")"
+              }}
+            >
               {/*only on md screen "d-md-block d-none"*/}
               <div className="icons-container d-md-block d-none">
                 <i className="nc-icon nc-time-alarm" />
@@ -51,12 +61,11 @@ function SectionProgress() {
                 <i className="nc-icon nc-cloud-download-93" />
               </div>
             </Col>
-            <Col lg="6" md="12">
-              <h2 className="title">
+            <Col className="text-center text-md-left" lg="6" md="12">
+              <h2 className="title text-center text-md-left mb-3">
                 Desenvolvimento <br />
                 Web | App
               </h2>
-              <br />
               <p className="presentation-subtitle description text-justify ">
                 Inicie um aplicativo móvel ou na web, moderno e totalmente
                 personalizado para interagir com seus clientes ou otimizar suas
@@ -75,13 +84,14 @@ function SectionProgress() {
             </Col>
           </Row>
         </Container>
-      </div>{" "}
-      <div className=" section-dark section-nucleo-icons">
+      </div>
+      <div className=" section-dark section-nucleo-icons pt-5 pb-5" id="">
         <Container>
           <Row>
-            <Col lg="6" md="12">
-              <h2 className="title">Análise de dados</h2>
-              <br />
+            <Col className="text-center text-md-left" lg="6" md="12">
+              <h2 className="title text-center text-md-left mb-3">
+                Análise de dados
+              </h2>
               <p className="presentation-subtitle description text-justify ">
                 Obtenha informações, mitigue riscos e reduza custos com uma
                 solução de banco de dados segura e confiável hospedada na Nube.
@@ -97,7 +107,13 @@ function SectionProgress() {
                 SAIBA MAIS
               </Button>
             </Col>
-            <Col lg="6" md="12">
+            <Col
+              lg="6"
+              md="12"
+              style={{
+                backgroundImage: "url(" + require("assets/img/01img.jpg") + ")"
+              }}
+            >
               {/*only on md screen "d-md-block d-none"*/}
               <div className="icons-container d-md-block d-none">
                 <i className="nc-icon nc-time-alarm" />
@@ -119,11 +135,17 @@ function SectionProgress() {
             </Col>
           </Row>
         </Container>
-      </div>{" "}
-      <div className=" section-dark section-nucleo-icons">
+      </div>
+      <div className=" section-dark section-nucleo-icons  pt-5 pb-5" id="">
         <Container>
           <Row>
-            <Col lg="6" md="12">
+            <Col
+              lg="6"
+              md="12"
+              style={{
+                backgroundImage: "url(" + require("assets/img/01img.jpg") + ")"
+              }}
+            >
               {/*only on md screen "d-md-block d-none"*/}
               <div className="icons-container d-md-block d-none">
                 <i className="nc-icon nc-time-alarm" />
@@ -143,9 +165,10 @@ function SectionProgress() {
                 <i className="nc-icon nc-cloud-download-93" />
               </div>
             </Col>
-            <Col lg="6" md="12">
-              <h2 className="title">Machine Learning</h2>
-              <br />
+            <Col className="text-center text-md-left" lg="6" md="12">
+              <h2 className="title text-center text-md-left mb-3">
+                Machine Learning
+              </h2>
               <p className="presentation-subtitle description text-justify">
                 Criação, treinamento e implementação de algoritmos de Machine
                 Learning para identificar oportunidades lucrativas, riscos ou
@@ -155,7 +178,7 @@ function SectionProgress() {
               </p>
               <br />
               <Button
-                className="btn-round ml-1"
+                className="btn-round ml-1 "
                 color="info"
                 href="https://nucleoapp.com/?ref=1712"
                 outline
@@ -166,7 +189,7 @@ function SectionProgress() {
             </Col>
           </Row>
         </Container>
-      </div>{" "}
+      </div>
     </>
   );
 }

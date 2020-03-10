@@ -53,7 +53,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand className=" pl-0 mt-0 pt-0 mb-0 pb-0 ">
             <Link
-              className="navbar-brand , "
+              className="navbar-brand pl-0"
               activeClass="active"
               to="ZavrPTHeader"
               spy={true}
@@ -65,7 +65,7 @@ function IndexNavbar() {
               target="_blank"
               title="ENGINEER MIND"
             >
-              ENGINEER MIND
+              MIND ENGINEERING
             </Link>
           </NavbarBrand>
 
@@ -104,7 +104,7 @@ function IndexNavbar() {
                 title="A ENGINEER MIND"
                 onClick={toggleNavbarCollapse}
               >
-                A ENGINEER MIND
+                HOME
               </Link>
             </NavItem>
 

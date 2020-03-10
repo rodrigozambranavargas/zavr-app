@@ -33,7 +33,7 @@
   &:not([class*="bg"]) {
     .navbar-toggler {
       .navbar-toggler-bar {
-        background: #66615b; //$default-color !important;
+        background: #212529; //$default-color !important;
       }
     }
   }
@@ -105,7 +105,7 @@
     }
 
     &:after {
-      background-color: #1d1d1d; //#fff5f5;
+      background-color: #212529; //#fff5f5;
     }
   }
 
