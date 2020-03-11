@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+
 //import "./App.css";
 import Navbar from "components_II/Navbar";
 import Home from "components_II/Home";
@@ -14,10 +15,9 @@ import ChangePasswordConfirm from "components_II/auth/ChangePasswordConfirm";
 import Welcome from "components_II/auth/Welcome";
 import Footer from "components_II/Footer";
 import { Auth } from "aws-amplify";
-//import { library } from "@fortawesome/fontawesome-svg-core";
-//import { faEdit } from "@fortawesome/free-solid-svg-icons";
-
-//library.add(faEdit);
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faEdit } from "@fortawesome/free-solid-svg-icons";
+library.add(faEdit);
 
 class Login extends Component {
   //
@@ -62,13 +62,13 @@ class Login extends Component {
     return (
       !this.state.isAuthenticating && (
         <div className="">
-          <Router>
+          <BrowserRouter>
             <div>
               <Navbar auth={authProps} />
               <Switch>
                 <Route
                   exact
-                  path="/"
+                  path="/login"
                   render={props => <Home {...props} auth={authProps} />}
                 />
                 <Route
@@ -124,10 +124,11 @@ class Login extends Component {
                   path="/welcome"
                   render={props => <Welcome {...props} auth={authProps} />}
                 />
+                <Redirect to="/forgotpassword" />
               </Switch>
               <Footer />
             </div>
-          </Router>
+          </BrowserRouter>
         </div>
       )
     );

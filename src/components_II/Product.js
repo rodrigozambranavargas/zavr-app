@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class ProductAdmin extends Component {
   state = {
@@ -34,7 +34,7 @@ export default class ProductAdmin extends Component {
               onClick={this.handleProductEdit}
               className="product-edit-icon"
             >
-              fontawesome {/* <FontAwesomeIcon icon="edit" /> */}
+              <FontAwesomeIcon icon="edit" />
             </a>
             <button
               onClick={event =>

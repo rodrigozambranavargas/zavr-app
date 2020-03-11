@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 // styles
 import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss";
+import "bulma/css/bulma.min.css"; // CSS de login
 
 // Pages
 import ZavrPTIndex from "views/ZavrPTIndex.js";
@@ -29,7 +30,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/indexPT" render={props => <ZavrPTIndex {...props} />} />
-      <Route path="/Login" render={props => <Login {...props} />} />
+      <Route path="/login" render={props => <Login {...props} />} />
       <Redirect to="/indexPT" />
     </Switch>
   </BrowserRouter>,
