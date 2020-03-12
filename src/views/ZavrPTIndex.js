@@ -8,7 +8,6 @@ import ZavrPTIndexHeader from "components/ZavrPTIndexHeader.js";
 import ZavrPTDemoFooter from "components/ZavrPTDemoFooter.js";
 
 // index sections
-
 import ZavrPTCompany from "components/ZavrPTCompany.js";
 import ZavrPTSectionDark from "components/ZavrPTSectionDark.js";
 import ZavrPTServices from "components/ZavrPTServices.js";

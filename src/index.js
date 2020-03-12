@@ -1,16 +1,15 @@
 // React
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+//import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 
 // styles
 import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss";
-import "bulma/css/bulma.min.css"; // CSS de login
+//import "bulma/css/bulma.min.css"; // CSS de login
 
 // Pages
-import ZavrPTIndex from "views/ZavrPTIndex.js";
-import Login from "views/Login.js";
+import App from "views/App.js";
 
 // AWS
 import Amplify from "aws-amplify"; // AWS Amplify es una plataforma de desarrollo para la creación de aplicaciones móviles y web seguras y escalables.
@@ -26,7 +25,9 @@ Amplify.configure({
   }
 });
 
-ReactDOM.render(
+ReactDOM.render(<App />, document.getElementById("root"));
+
+/* ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/indexPT" render={props => <ZavrPTIndex {...props} />} />
@@ -36,3 +37,4 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
+ */
