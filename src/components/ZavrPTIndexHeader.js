@@ -11,7 +11,7 @@ function IndexHeader() {
   return (
     <>
       <div
-        className="page-header section-gray "
+        className="page-header section-gray"
         id="ZavrPTHeader"
         /*  style={{
           backgroundImage: "url(" + require("assets/img/intro.gif") + ")"
@@ -21,13 +21,13 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <Row>
-              <Col className="col-md-7">
+              <Col className="col-md-7 text-center text-md-left">
                 <div className="">
                   <h1 className="presentation-title text-center text-md-left">
                     Ajudamos você a transformar dados em resultados
                   </h1>
                 </div>
-                <p className="description mt-4 text-center text-md-left">
+                <p className="mt-4 text-center text-md-left">
                   Engineer Mind é uma empresa de consultoria com experiência na
                   aplicação de soluções baseadas na Nuvem a problemas
                   industriais e de negócios <br></br>
@@ -47,7 +47,7 @@ function IndexHeader() {
                     color="info"
                     outline
                     target="_blank"
-                    title="CONTATO"
+                    title="SAIBA MAIS"
                   >
                     SAIBA MAIS
                   </Button>

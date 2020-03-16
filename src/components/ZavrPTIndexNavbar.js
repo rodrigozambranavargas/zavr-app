@@ -110,7 +110,7 @@ function IndexNavbar() {
 
             <NavItem>
               <Link
-                className="nav-link"
+                className="nav-link "
                 activeClass="active"
                 to="ZavrPTServices"
                 spy={true}

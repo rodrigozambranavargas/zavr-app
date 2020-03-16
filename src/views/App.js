@@ -72,11 +72,11 @@ class App extends Component {
                   path="/indexPT"
                   render={props => <ZavrPTIndex {...props} />}
                 />
-                <Route
+                {/* <Route
                   exact
                   path="/LogIn"
                   render={props => <LogIn {...props} auth={authProps} />}
-                />
+                /> */}
 
                 {/*
                 <Route
@@ -134,7 +134,6 @@ class App extends Component {
                 /> */}
                 <Redirect to="/indexPT" />
               </Switch>
-              <Footer />
             </div>
           </BrowserRouter>
         </div>

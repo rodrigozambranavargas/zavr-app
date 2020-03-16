@@ -26,15 +26,3 @@ Amplify.configure({
 });
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
-/* ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route path="/indexPT" render={props => <ZavrPTIndex {...props} />} />
-      <Route path="/login" render={props => <Login {...props} />} />
-      <Redirect to="/indexPT" />
-    </Switch>
-  </BrowserRouter>,
-  document.getElementById("root")
-);
- */

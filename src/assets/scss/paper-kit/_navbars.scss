@@ -6,6 +6,7 @@
     }
   }
 }
+
 .navbar {
   border: $none;
   font-size: $font-size-base;
@@ -210,7 +211,7 @@
     &:hover {
       background-color: transparent;
       @include opacity(1);
-      color: $white-color;
+      color: #00d2be; //$white-color;
     }
   }
 
@@ -224,7 +225,7 @@
     .nav-item .nav-link:hover,
     .nav-item .nav-link:focus {
       background-color: transparent;
-      color: $white-color;
+      color: #00d2be; //$white-color;
       @include opacity(1);
     }
     .nav .nav-item a.btn:hover {

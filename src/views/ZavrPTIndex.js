@@ -25,13 +25,13 @@ function Index() {
     <>
       <ZavrPTIndexNavbar />
       <ZavrPTIndexHeader />
-      <div className="main">
+      {/*     <div className="main">
         <ZavrPTCompany />
         <ZavrPTSectionDark />
         <ZavrPTServices />
         <ZavrPTContactUs />
         <ZavrPTDemoFooter />
-      </div>
+      </div> */}
     </>
   );
 }
