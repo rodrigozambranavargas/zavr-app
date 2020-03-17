@@ -25,6 +25,7 @@ function Index() {
     <>
       <ZavrPTIndexNavbar />
       <ZavrPTIndexHeader />
+      <ZavrPTCompany />
       {/*     <div className="main">
         <ZavrPTCompany />
         <ZavrPTSectionDark />

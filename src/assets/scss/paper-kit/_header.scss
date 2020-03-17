@@ -1,5 +1,5 @@
 .page-header {
-  background-color: $header-background;
+  background-color: #b2afab;
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
@@ -8,6 +8,22 @@
   position: relative;
   width: 100%;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .page-header-title {
+    font-size: 3.5em;
+    font-weight: 650;
+    margin: 0;
+    color: #ffffff;
+    //background: #fbf8ec;
+  }
+  .page-header-subtitle {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #e4e4e4;
+  }
 
   &.page-header-small {
     min-height: 65vh !important;
@@ -119,7 +135,7 @@ video {
       left: 50%;
       transform: translate(-50%, -75%);
     }
-    .presentation-title {
+    .header-title {
       background: none !important;
     }
   }

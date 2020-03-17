@@ -13,20 +13,26 @@
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
-  background: #0a0a0a; //$white-color;
+  background: #212529; //#0a0a0a; //$white-color;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 
   .navbar-brand {
     font-weight: $font-weight-bold;
+    //font-weight: 500;
     margin: $navbar-margin-brand;
     padding: $navbar-padding-brand;
-    font-size: $font-size-base;
+    font-size: 18px; //$font-size-base;
     color: #e3e3e3; //$default-color;
     text-transform: uppercase;
   }
+  .navbar-brand:hover {
+    color: #00d2be; //$white-color;
+  }
+
   .navbar-toggler:focus {
     outline: none;
   }
+
   .form-control-feedback {
     padding-left: 0px;
   }
@@ -59,6 +65,11 @@
         padding: 15px 0;
       }
     }
+
+    .nav-link:hover {
+      color: #00d2be; //$white-color;
+    }
+
     .nav-item .nav-link.btn {
       margin: $navbar-margin-a-btn;
       padding: 9px;

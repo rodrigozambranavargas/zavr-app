@@ -1,0 +1,56 @@
+.section-company {
+  background-color: $background-light-grey;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  padding: 100px 0;
+
+  &.section-company-small {
+    min-height: 65vh !important;
+    max-height: 700px;
+  }
+  &.section-company-xs {
+    min-height: 40vh !important;
+  }
+
+  .section-company-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #b31818;
+    width: 100%;
+  }
+  .section-company-title {
+    font-size: 3.5em;
+    font-weight: 650;
+    margin: 0;
+    color: #e60f0f;
+    //background: #3b3b38;
+  }
+
+  .section-company-subtitle {
+    font-size: 1em;
+    font-weight: 250;
+    margin: 0;
+    color: #b30a0a;
+  }
+}

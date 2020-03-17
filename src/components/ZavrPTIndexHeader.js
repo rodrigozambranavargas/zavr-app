@@ -20,14 +20,14 @@ function IndexHeader() {
         {/* <div className="filter" /> */}
         <div className="content-center">
           <Container>
-            <Row>
+            <Row className="pt-5">
               <Col className="col-md-7 text-center text-md-left">
-                <div className="">
-                  <h1 className="presentation-title text-center text-md-left">
+                <div>
+                  <h1 className="page-header-title text-center text-md-left ">
                     Ajudamos você a transformar dados em resultados
                   </h1>
                 </div>
-                <p className="mt-4 text-center text-md-left">
+                <p className="page-header-subtitle  mt-4 text-center text-md-left">
                   Engineer Mind é uma empresa de consultoria com experiência na
                   aplicação de soluções baseadas na Nuvem a problemas
                   industriais e de negócios <br></br>
