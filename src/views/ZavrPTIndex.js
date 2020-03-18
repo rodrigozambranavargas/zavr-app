@@ -9,7 +9,7 @@ import ZavrPTDemoFooter from "components/ZavrPTDemoFooter.js";
 
 // index sections
 import ZavrPTCompany from "components/ZavrPTCompany.js";
-import ZavrPTSectionDark from "components/ZavrPTSectionDark.js";
+import ZavrPTMiddleSection from "components/ZavrPTMiddleSection.js";
 import ZavrPTServices from "components/ZavrPTServices.js";
 import ZavrPTContactUs from "components/ZavrPTContactUs.js";
 
@@ -26,9 +26,11 @@ function Index() {
       <ZavrPTIndexNavbar />
       <ZavrPTIndexHeader />
       <ZavrPTCompany />
+      <ZavrPTMiddleSection />
+      <ZavrPTContactUs />
       {/*     <div className="main">
         <ZavrPTCompany />
-        <ZavrPTSectionDark />
+        <ZavrPTMiddleSection />
         <ZavrPTServices />
         <ZavrPTContactUs />
         <ZavrPTDemoFooter />

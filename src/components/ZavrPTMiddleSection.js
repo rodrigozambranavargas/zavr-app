@@ -5,21 +5,26 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 
-function SectionDark() {
+function MiddleSection() {
   return (
     <>
-      <div className="section section-dark">
+      <div className="section-middle">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title presentation-title">
+              <h2 className="section-middle-title">
                 O parceiro de transformação digital que você procura
               </h2>
-              <br />
-              <br />
-              <p className="presentation-subtitle description">
+              <p
+                className="section-middle-subtitle mt-3"
+                style={{
+                  fontStyle: "italic"
+                  //fontWeight: "bold"
+                  //textDecorationLine: "underline"
+                }}
+              >
                 Fornecendo o melhor em soluções escaláveis e específicas do
-                setor baseadas na Nube.
+                setor baseadas na Nuvem.
               </p>
             </Col>
           </Row>
@@ -29,4 +34,4 @@ function SectionDark() {
   );
 }
 
-export default SectionDark;
+export default MiddleSection;

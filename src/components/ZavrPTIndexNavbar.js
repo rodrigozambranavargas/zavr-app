@@ -65,7 +65,7 @@ function IndexNavbar() {
               target="_blank"
               title="ENGINEER MIND"
             >
-              MIND ENGINEERING
+              ENGINEERING MIND
             </Link>
           </NavbarBrand>
 
@@ -95,16 +95,16 @@ function IndexNavbar() {
                 to="ZavrPTCompany"
                 spy={true}
                 smooth={true}
-                offset={-20}
+                offset={10}
                 duration={700}
                 data-target=".navbar-collapse.show"
                 data-placement="bottom"
                 href=""
                 target="_blank"
-                title="A ENGINEER MIND"
+                title="Eng|Mind"
                 onClick={toggleNavbarCollapse}
               >
-                HOME
+                ABOUT US
               </Link>
             </NavItem>
 

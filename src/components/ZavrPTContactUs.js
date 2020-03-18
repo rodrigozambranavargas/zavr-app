@@ -8,14 +8,16 @@ import { Container, Row, Col } from "reactstrap";
 function SectionTypography() {
   return (
     <>
-      <div className="section-dark" id="ZavrPTContactUs">
+      <div className="section-contact-us" id="ZavrPTContactUs">
         <Container>
           <div>
             <Row>
               <Col>
-                <div className="section-dark">
-                  <blockquote className="blockquote ">
-                    <h3 className="title">Pronto quando estiveres</h3>
+                <div>
+                  <blockquote className="blockquote pt-4">
+                    <h3 className="section-contact-us-title">
+                      Pronto quando estiveres
+                    </h3>
                     <p className="mb-0 ">
                       Informe-nos o que procura ou, se ainda não tiver certeza,
                       entraremos em contato com você com prazer e ajudaremos a
@@ -24,7 +26,7 @@ function SectionTypography() {
                     </p>
                     <br />
                     <div className="">
-                      <h5 className="my-0">Contato</h5>
+                      <h5 className="section-contact-us-title my-0">Contato</h5>
                       <br />
                       <a
                         href="https://github.com/rodrigozambranavargas"

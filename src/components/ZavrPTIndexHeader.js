@@ -36,11 +36,11 @@ function IndexHeader() {
                 <Link
                   className="nav-link pl-0"
                   activeClass="active"
-                  to="ZavrPTContactUs"
+                  to="ZavrPTCompany"
                   spy={true}
                   smooth={true}
-                  offset={-70}
-                  duration={1000}
+                  offset={10}
+                  duration={700}
                 >
                   <Button
                     className="btn-round"
