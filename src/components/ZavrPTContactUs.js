@@ -9,7 +9,7 @@ function SectionTypography() {
   return (
     <>
       <div className="section-contact-us" id="ZavrPTContactUs">
-        <Container>
+        {/* <Container>
           <div>
             <Row>
               <Col>
@@ -55,7 +55,7 @@ function SectionTypography() {
               </Col>
             </Row>
           </div>
-        </Container>
+        </Container> */}
       </div>
     </>
   );
