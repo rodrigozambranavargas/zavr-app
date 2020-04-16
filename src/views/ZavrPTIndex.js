@@ -26,15 +26,8 @@ function Index() {
       <ZavrPTIndexNavbar />
       <ZavrPTIndexHeader />
       <ZavrPTCompany />
-      <ZavrPTMiddleSection />
-      <ZavrPTContactUs />
-      {/*     <div className="main">
-        <ZavrPTCompany />
-        <ZavrPTMiddleSection />
-        <ZavrPTServices />
-        <ZavrPTContactUs />
-        <ZavrPTDemoFooter />
-      </div> */}
+      {/*  <ZavrPTMiddleSection />
+      <ZavrPTContactUs /> */}
     </>
   );
 }

@@ -88,7 +88,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            <NavItem>
+            {/*    <NavItem>
               <Link
                 className="nav-link"
                 activeClass="active"
@@ -106,9 +106,9 @@ function IndexNavbar() {
               >
                 ABOUT US
               </Link>
-            </NavItem>
+            </NavItem> */}
 
-            <NavItem>
+            {/*        <NavItem>
               <Link
                 className="nav-link "
                 activeClass="active"
@@ -125,9 +125,9 @@ function IndexNavbar() {
               >
                 SOLUÇÕES
               </Link>
-            </NavItem>
+            </NavItem> */}
 
-            <NavItem>
+            {/*     <NavItem>
               <Link
                 className="nav-link"
                 activeClass="active"
@@ -144,7 +144,7 @@ function IndexNavbar() {
               >
                 CONTATO
               </Link>
-            </NavItem>
+            </NavItem> */}
 
             <NavItem>
               <NavLink
