@@ -88,7 +88,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            {/*    <NavItem>
+            <NavItem>
               <Link
                 className="nav-link"
                 activeClass="active"
@@ -104,9 +104,9 @@ function IndexNavbar() {
                 title="Eng|Mind"
                 onClick={toggleNavbarCollapse}
               >
-                ABOUT US
+                Home
               </Link>
-            </NavItem> */}
+            </NavItem>
 
             {/*        <NavItem>
               <Link
@@ -127,14 +127,14 @@ function IndexNavbar() {
               </Link>
             </NavItem> */}
 
-            {/*     <NavItem>
+            <NavItem>
               <Link
                 className="nav-link"
                 activeClass="active"
-                to="ZavrPTContactUs"
+                to="ZavrPTFooter"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-50}
                 duration={700}
                 data-placement="bottom"
                 href=""
@@ -144,11 +144,11 @@ function IndexNavbar() {
               >
                 CONTATO
               </Link>
-            </NavItem> */}
+            </NavItem>
 
             <NavItem>
               <NavLink
-                href="/Login"
+                href="https://rodrigozambranavargas.github.io/RZV/"
                 target="_blank"
                 onClick={toggleNavbarCollapse}
               >

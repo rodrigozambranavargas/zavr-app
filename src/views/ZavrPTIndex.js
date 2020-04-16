@@ -5,7 +5,7 @@ import React from "react";
 // core components
 import ZavrPTIndexNavbar from "components/ZavrPTIndexNavbar";
 import ZavrPTIndexHeader from "components/ZavrPTIndexHeader.js";
-import ZavrPTDemoFooter from "components/ZavrPTDemoFooter.js";
+import ZavrPTFooter from "components/ZavrPTFooter.js";
 
 // index sections
 import ZavrPTCompany from "components/ZavrPTCompany.js";
@@ -26,6 +26,7 @@ function Index() {
       <ZavrPTIndexNavbar />
       <ZavrPTIndexHeader />
       <ZavrPTCompany />
+      <ZavrPTFooter />
       {/*  <ZavrPTMiddleSection />
       <ZavrPTContactUs /> */}
     </>
