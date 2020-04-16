@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container
+  Container,
 } from "reactstrap";
 
 // React Scroll
@@ -72,7 +72,7 @@ function IndexNavbar() {
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler ", {
-              toggled: navbarCollapse
+              toggled: navbarCollapse,
             })}
             onClick={toggleNavbarCollapse}
           >
@@ -112,10 +112,10 @@ function IndexNavbar() {
               <Link
                 className="nav-link "
                 activeClass="active"
-                to="ZavrPTServices"
+                to="ZavrPTMiddleSection"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-20}
                 duration={700}
                 data-placement="bottom"
                 href=""

@@ -11,7 +11,7 @@ import Image from "react-bootstrap/Image";
 function MiddleSection() {
   return (
     <>
-      <div className="section-middle">
+      <div className="section-middle" id="ZavrPTMiddleSection">
         <Container>
           <Row className="pb-md-5">
             <Col className="ml-auto mr-auto text-center" md="8">
@@ -21,7 +21,7 @@ function MiddleSection() {
               <p
                 className="section-middle-subtitle mt-3"
                 style={{
-                  fontStyle: "italic"
+                  fontStyle: "italic",
                   //fontWeight: "bold"
                   //textDecorationLine: "underline"
                 }}
@@ -37,7 +37,7 @@ function MiddleSection() {
               <Card
                 style={{
                   backgroundImage:
-                    "url(" + require("assets/img/02img.jpg") + ")"
+                    "url(" + require("assets/img/02img.jpg") + ")",
                 }}
               >
                 <Card.Body>
@@ -58,7 +58,7 @@ function MiddleSection() {
               <Card
                 style={{
                   backgroundImage:
-                    "url(" + require("assets/img/04img.jpg") + ")"
+                    "url(" + require("assets/img/04img.jpg") + ")",
                 }}
               >
                 <Card.Body>
@@ -72,7 +72,7 @@ function MiddleSection() {
               <Card
                 style={{
                   backgroundImage:
-                    "url(" + require("assets/img/02img.jpg") + ")"
+                    "url(" + require("assets/img/02img.jpg") + ")",
                 }}
               >
                 <Card.Body>
