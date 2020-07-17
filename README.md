@@ -1,4 +1,4 @@
-# zavr-app
+# Zavr-app
 
 Zavar is a simple example of a landing page using react, Bootstrap and SASS for build user interface. 
 
